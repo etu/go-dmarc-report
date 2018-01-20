@@ -1,0 +1,20 @@
+* DMARC Report
+A simple tool to read DMARC reports sent over email. The tool expects the
+files to be zipped and will probably fail otherwise.
+
+** Building
+Make sure to have =go= and =make= installed.
+
+#+BEGIN_SRC
+# Fetch deps
+$ git submodule init
+$ git submodule update
+
+# Build
+$ make build
+#+END_SRC
+
+** Usage
+#+BEGIN_SRC
+$ ./dmarc-report path/to/dmarc/report.zip ...
+#+END_SRC
