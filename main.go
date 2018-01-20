@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 )
 
@@ -17,6 +16,5 @@ func main() {
 		)
 	}
 
-	fmt.Println("All parsed reports from all files:")
-	fmt.Println(dfs)
+	printDmarcFeedbacks(dfs)
 }
