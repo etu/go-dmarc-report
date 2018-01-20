@@ -1,0 +1,6 @@
+[submodule "vendor/src/github.com/olekukonko/tablewriter"]
+	path = vendor/src/github.com/olekukonko/tablewriter
+	url = https://github.com/olekukonko/tablewriter.git
+[submodule "vendor/src/github.com/mattn/go-runewidth"]
+	path = vendor/src/github.com/mattn/go-runewidth
+	url = https://github.com/mattn/go-runewidth.git
